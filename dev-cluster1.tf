@@ -1,3 +1,6 @@
+terraform {
+  required_version = "~> 0.15.5"
+}
 provider "azurerm" {
   features {}
 }
